@@ -1,0 +1,4 @@
+Q-Bot performed explore with traits [1, 0, 1] and energy 85
+Q-Bot performed rest with traits [0, 1, 1] and energy 80
+...
+Q-Bot has died.

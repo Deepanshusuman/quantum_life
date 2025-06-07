@@ -1,26 +1,47 @@
-# 🧠 How It Works
-## AI Layer
-Tracks energy, memory, and traits
+# 🧬 QuantumLifeForm
 
-Decides actions based on internal state and trait logic
+**QuantumLifeForm** is a conceptual simulation that merges **Artificial Intelligence (AI)** with **Quantum Computing** to model a digital organism. It explores how a lifeform can perceive, decide, mutate, and survive using both deterministic logic and quantum randomness.
 
-## Quantum Layer
-Uses a 3-qubit quantum circuit to mutate traits
+---
 
-Traits are measured and mapped from qubit outputs (0s and 1s)
+## 🚀 Features
 
-## Life Cycle
-Action affects energy (e.g., explore costs energy)
+- 🧠 AI-driven decision-making (explore, rest, recharge)
+- ⚛️ Quantum mutation engine using Qiskit
+- 💡 Dynamic traits based on 3-qubit quantum circuits
+- 🔁 Simulated life cycle with energy-based survival
+- 🧬 Simple memory and adaptive behavior loop
 
-If energy ≤ 0, the lifeform dies
+---
 
-## 🧬 Future Ideas
-Neural network–based behavior learning
+## 🧠 How It Works
 
-Multi-agent ecosystem simulation
+### AI Layer
+- Tracks internal **energy**, **traits**, and **environmental memory**
+- Chooses actions based on trait logic and current energy
 
-Reproduction and trait inheritance
+### Quantum Layer
+- Uses a **3-qubit quantum circuit** (with Hadamard gates) to mutate the lifeform’s traits
+- Qubit measurements (0s and 1s) are mapped to a 3-bit genome representing traits
 
-Real-time visualization
+### Life Cycle
+1. **Perceive** the environment
+2. **Mutate** traits via quantum randomness
+3. **Decide** the next action
+4. **Act** (recharge, rest, or explore)
+5. **Check energy** — if energy ≤ 0, the lifeform dies
 
-Real quantum hardware integration (IBM Q backend)
+---
+
+## 📦 Installation
+
+### Requirements
+- Python 3.8+
+- [`qiskit`](https://qiskit.org/)
+- `numpy`
+
+### Setup
+
+```bash
+pip install qiskit numpy
+```

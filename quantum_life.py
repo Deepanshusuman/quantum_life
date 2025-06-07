@@ -1,5 +1,8 @@
 from quantum_life import QuantumLifeForm
 
-creature = QuantumLifeForm("Q-Bot")
+# Create a lifeform
+bot = QuantumLifeForm("Q-Bot")
+
+# Run the simulation for 10 cycles
 for _ in range(10):
-    creature.run("simulated environment")
+    bot.run("simulated environment")
